@@ -6,10 +6,17 @@ The aim of this project is to provide an opinionated guide on how to write effec
 of articles & guides out there on this topic, but most of them are not talking about the frequent issues React Native developers come across when testing their applications.
 
 Some of the topics covered in this guide are:
-- The philosophy behind testing
+- The philosophy behind unit testing:
+  - Why unit tests exist
+  - Understanding what to unit test and what NOT to unit test
 - Testing components
 - Testing hooks
-- Shallow testing: how and when to use it
+- Testing 
+- Shallow Testing
+  - What is Shallow Testing
+  - When to shallow test versus when NOT to shallow test
+- A deep dive on mocking native modules
+- Understanding Jest's config file
 - Why snapshot tests are bad and how to replace them
 - TBTB: The Badass Test Boilerplate
 
